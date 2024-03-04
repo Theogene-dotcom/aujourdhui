@@ -1,1 +1,1 @@
-web gunicorn lundi.wsgi: application --log-file -
+web: gunicorn lundi.wsgi
