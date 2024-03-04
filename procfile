@@ -1,1 +1,1 @@
-web: gunicorn lundi.wsgi
+web: gunicorn toujour.wsgi --log-file -
